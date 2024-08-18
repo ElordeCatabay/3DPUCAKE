@@ -1,0 +1,64 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.App-footer {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+}
+
+.App-footer a {
+  color: #61dafb; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.App-footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.CustomizationPanel {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.CustomizationPanel div {
+  margin-bottom: 15px;
+}
+
+.CustomizationPanel label {
+  margin-right: 10px;
+}
+
+.add-decor-btn {
+  background-color: #61dafb; /* Button color */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-decor-btn:hover {
+  background-color: #21a1f1; /* Darker shade on hover */
+}
+
+#decoration-type {
+  padding: 5px;
+  border-radius: 4px;
+}
